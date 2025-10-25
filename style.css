@@ -31,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   background: hsl(0, 0%, 8%);
+  padding: 20px;
 }
 .card {
   background: hsl(0, 0%, 12%);
@@ -105,7 +106,7 @@ body {
   height: 100%;
   color: white;
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -115,4 +116,29 @@ body {
   color: hsl(0, 0%, 8%);
   font-weight: 600;
   background: hsl(75, 94%, 57%);
+}
+@media screen and (max-width: 450px) {
+  .images {
+    width: 85px;
+    height: 85px;
+  }
+  .intro h1 {
+    font-size: 1.3rem;
+  }
+  .intro h2 {
+    font-size: 0.9rem;
+  }
+  .intro div p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .links ul li {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .links ul li {
+    width: 250px;
+  }
 }
