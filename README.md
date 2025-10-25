@@ -3,7 +3,7 @@
 This is a solution to the [Social links profile on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).  
 
 
-![Design preview for the Recipe page coding challenge](pic2.png)
+![Design preview for the Recipe page coding challenge](picc.png)
 
 ## Welcome! 👋
 
