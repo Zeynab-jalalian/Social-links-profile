@@ -71,8 +71,7 @@ body {
   color: hsl(318, 94%, 57%);
 }
 .intro div p {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 30px 0 10px 0;
   font-size: 0.9em;
   color: hsla(0, 0%, 82%, 0.897);
   font-family: "Inter", sans-serif;
@@ -118,6 +117,9 @@ body {
   font-weight: 600;
   background: hsl(318, 94%, 57%);
 }
+.attribution a {
+  color: hsl(342, 45%, 44%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -125,8 +127,15 @@ body {
   margin: 25px auto;
   font-family: "Inter", sans-serif;
 }
-.attribution a {
-  color: hsl(342, 45%, 44%);
+@media screen and (max-width: 335px) {
+  .links ul li {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .links ul li {
+    width: 270px;
+  }
 }
 @media screen and (max-width: 450px) {
   .images {
@@ -141,15 +150,5 @@ body {
   }
   .intro div p {
     font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 375px) {
-  .links ul li {
-    width: 270px;
-  }
-}
-@media screen and (max-width: 335px) {
-  .links ul li {
-    width: 250px;
   }
 }
