@@ -76,3 +76,33 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+.links {
+  margin-top: 5px;
+}
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.links ul li {
+  width: 300px;
+  max-width: 100%;
+  height: 40px;
+  text-align: center;
+  background: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links ul li a {
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
