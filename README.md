@@ -3,7 +3,7 @@
 This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).  
 
 
-![Design preview for the Recipe page coding challenge](pic1.png)
+![Design preview for the Recipe page coding challenge](pic2.png)
 
 ## Welcome! 👋
 
