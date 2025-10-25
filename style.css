@@ -68,7 +68,7 @@ body {
 }
 .intro h2 {
   font-size: 1rem;
-  color: hsl(75, 94%, 57%);
+  color: hsl(318, 94%, 57%);
 }
 .intro div p {
   margin-top: 30px;
@@ -116,7 +116,7 @@ body {
 .links ul li:hover a {
   color: hsl(0, 0%, 8%);
   font-weight: 600;
-  background: hsl(75, 94%, 57%);
+  background: hsl(318, 94%, 57%);
 }
 .attribution {
   font-size: 11px;
@@ -126,7 +126,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(342, 45%, 44%);
 }
 @media screen and (max-width: 450px) {
   .images {
