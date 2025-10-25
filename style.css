@@ -97,12 +97,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .links ul li a {
   text-decoration: none;
   width: 100%;
+  height: 100%;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links ul li:hover a {
+  color: hsl(0, 0%, 8%);
+  font-weight: 600;
+  background: hsl(75, 94%, 57%);
 }
